@@ -41,6 +41,8 @@ class ViewController: UIViewController {
         answer.image = UIImage(named: generateRandom())
     }
     
-    
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        answer.image = UIImage(named: generateRandom())
+    }
 }
 
